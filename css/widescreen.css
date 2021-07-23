@@ -1,16 +1,23 @@
 /* Align icon to left */
-#what .items .item {
+#education .items .item {
   display: flex;
   text-align: left;
 }
 
 /* Position icon */
-#what .items .item i {
+#education .items .item i {
   margin-right: 1.3rem;
   align-self: center;
   margin-bottom: 0;
 }
+#experience .items .item {
+  display: flex;
+  text-align: left;
+}
 
-#contact .map {
-  flex: 2;
+/* Position icon */
+#experience .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
 }

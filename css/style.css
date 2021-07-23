@@ -133,7 +133,7 @@ p {
 
 /* Showcase */
 #showcase {
-    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+    background: rgb(12, 11, 11) url('../img/') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
     position: relative;
@@ -143,50 +143,68 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     height: 100%;
-    padding: 0 2rem;
+    margin-top: 100px;
     /* Overlay */
     position:absolute;
     top:0;
     left:0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.4);
+    /* background-color: rgba(0,0,0,0.4); */
 }
 
 /* Section: What We Do */
-#what .items {
+#education .items {
     display: flex;
     padding: 1rem;
 }
 
-#what .items .item {
+#education .items .item {
     flex: 1;
     text-align: center;
     padding: 1rem;
 }
 
-#what .items .item i {
+#education .items .item i {
     background: #93cb52;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+/* experience */
+#experience .items {
+    display: flex;
+    padding: 1rem;
+}
 
+#experience .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#experience .items .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
 /* Section: Who We Are */
-#who {
+#skills {
     display: flex;
 }
 
-#who div {
+#skills div {
     flex: 1;
     flex-basis: 50%;
 }
 
-#who .who-img {
-    background: url('../img/people.jpg') no-repeat center center/cover;
+#skills .who-img {
+    background: url('../img/ja.jpeg') no-repeat center/cover;
+    /* height: 100%; */
 }
 
 /* Section: Clients */
@@ -199,27 +217,9 @@ p {
     margin: auto;
     width: 60%;
 }
-
-/* Section: Contact */
-#contact {
-    display: flex;
-}
-
-#contact .map, #contact .contact-form {
-    flex: 1;
-    flex-basis: 50%;
-}
-
-#contact .contact-form .form-group {
-    margin: 0.75rem;
-}
-
-#contact .contact-form label {
-    display: block;
-}
-
-#contact .contact-form input,
-#contact .contact-form textarea {
-    width: 100%;
-    padding: 0.5rem;
+a i:hover{
+background-color: #93cb52;
+border-radius: 50%;
+height: 50 px;
+width: 50px;
 }
